@@ -9,7 +9,7 @@
 //	HybridAuth End Point
 // ------------------------------------------------------------------------
 
-require_once (dirname(dirname(dirname(dirname(dirname(__FILE__))))) . "/engine/start.php");
+require_once (dirname(dirname(dirname(dirname(dirname(__FILE__))))) . "/vendor/elgg/elgg/engine/start.php");
 
 function exception_handler($e) { 
 	throw new Exception( $e->getMessage(), $e->getCode() );
